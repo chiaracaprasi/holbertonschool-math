@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include "holberton.h"
+#include <stdlib.h>
+
+/**
+ *void display_complex_number - displays the complex numbers
+ * @c: srtuct to display
+ *
+ * Return: nothing
+ */
+void display_complex_number(complex c)
+{
+	if (c != NULL)
+	{
+		printf("%f + %f", c->re, c->im);
+	}
+}
